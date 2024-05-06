@@ -5,7 +5,7 @@ class CharGenerator(val menor : Char, val maior : Char) {
 }
 
 fun main() {
-    val novoCaracter = CharGenerator('A', 'Z')
+    val novoCaracter = CharGenerator('A', 'z')
     val caractereAleatorio = novoCaracter.gerarChar()
     println("Caractere aleatório gerado: $caractereAleatorio")
 }
